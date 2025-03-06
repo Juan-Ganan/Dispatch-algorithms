@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #eee;
+}
+/* Estilos para el diagrama de Gantt */
+.ganttWrapper {
+  display: flex;
+  margin-bottom: 40px;
+}
+.yAxisContainer {
+  width: 50px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.yAxisLabel {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+  padding-right: 5px;
+  font-weight: bold;
+}
+.chartContainer {
+  flex: 1;
+}
+.ganttContainer {
+  position: relative;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
+.axisContainer {
+  position: relative;
+  border-top: 1px solid #000;
+  overflow-x: auto;
+  height: 30px;
+}
+.processBlock {
+  position: absolute;
+  background-color: lightgreen;
+  border: 1px solid #000;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+.timeMarker {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 10px;
+  background-color: #000;
+}
+.timeLabel {
+  position: absolute;
+  top: 10px;
+  font-size: 12px;
+  transform: translateX(-50%);
+}
+.averages {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.section {
+  margin-bottom: 50px;
+}
+/* Sección de ingreso de datos */
+#inputSection {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+#inputTable input {
+  width: 90%;
+  padding: 4px;
+}
